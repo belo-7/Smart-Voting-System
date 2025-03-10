@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <h1 className="text-orange  text-2xl">WEL-COME TO HARAR VOTING </h1>
+      <Login />
     </div>
   );
 };
