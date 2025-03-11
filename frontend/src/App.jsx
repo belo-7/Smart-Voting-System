@@ -1,11 +1,14 @@
 import React from "react";
-import Login from "./components/Login";
+import VoterRegister from "./components/VoterRegister";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-orange  text-2xl">WEL-COME TO HARAR VOTING </h1>
-      <Login />
+      <h1 className="flex justify-center m-10 text-white  text-4xl font-bold">
+        WEL-COME TO ELECTION BOARD OF HARAR{" "}
+      </h1>
+      <VoterRegister />
+      {/* <Candidates  /> */}
     </div>
   );
 };

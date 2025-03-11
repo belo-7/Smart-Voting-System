@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-const Login = () => {
+const VoterRegister = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-700 ">
-      <div className="bg-white p-8 rounded-lg shadow-md w-96">
+    <div className="flex justify-center items-center max-h-screen p-17">
+      <div className="bg-white p-15 rounded-lg shadow-md w-96 ">
         <h2 className="text-2xl font-semibold text-center mb-4">
           Election System Login
         </h2>
@@ -21,7 +21,7 @@ const Login = () => {
           />
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition"
+            className="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition"
           >
             Login
           </button>
@@ -31,4 +31,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default VoterRegister;
